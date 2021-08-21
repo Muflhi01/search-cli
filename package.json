@@ -1,0 +1,38 @@
+{
+  "name": "@wonoly/search-cli",
+  "version": "1.0.0",
+  "description": "Search in the web with the console",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wonoly/search-c.git"
+  },
+  "keywords": [
+    "search",
+    "console"
+  ],
+  "author": "wonoly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wonoly/search-c/issues"
+  },
+  "homepage": "https://github.com/wonoly/search-c#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.2",
+    "clear-any-console": "^1.16.2",
+    "commander": "^8.1.0",
+    "conf": "^10.0.2",
+    "loading-indicator": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "search": "src/index.js",
+    "wonoly": "src/index.js"
+  }
+}
